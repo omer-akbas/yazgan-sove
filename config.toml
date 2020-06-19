@@ -85,8 +85,8 @@ publishDir = "docs"
   # Söveler
   [params.work]
     enable = true
-    title = "Sövelerimiz"
-    description = "Çok acayip sövelerimiz vardır."
+    title = "Söve İmalatı"
+    description = "İstenilen ölçü ve ebatlarda söve imalatımız vardır."
     # footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
@@ -129,23 +129,25 @@ publishDir = "docs"
   [params.testimonials]
     enable = true
     title = "Referanslarımız"
-    description = "Sövelediklerimiz."
+    description = "Referanslarımızdan bazıları."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      # quote = "&ldquo;⭐⭐⭐⭐⭐&rdquo;"
+      quote = "⭐⭐⭐⭐⭐"
+      person = 'Bergamalı Aslı Garden'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      # quote = "&ldquo;⭐⭐⭐⭐⭐&rdquo;"
+      quote = "⭐⭐⭐⭐⭐"
+      person = 'Çandarlı Betoncu İnşaat'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "⭐⭐⭐⭐⭐"
+      person = 'Yavaşer İnşaat'
       img = "person3.jpg"
       alt = "Person3"
     
@@ -182,43 +184,43 @@ publishDir = "docs"
   [params.about]
     enable = true
     title = "Hakkımızda"
-    description = "Biz öyleyiz böyleyiz şöyleyiz."
+    description = "2000 yılından beri kuzey ege bölgesinde inşaat ve ısı yalıtım sektörüne hizmet vermekteyiz. Bizler için her zaman müşteri memnuniyeti ön planda olmuştur ve böyle olmayada devam edecektir."
 
-    [[params.about.item]]
-      name = "Özkan ÖZMEN"
-      position = "Söveci"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
+    # [[params.about.item]]
+    #   name = "Özkan ÖZMEN"
+    #   position = "Söveci"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    #   img = "person1.jpg"
+    #   alt = "Person1"
+    #   social = [
+    #     ["icon-twitter", "#"],
+    #     ["icon-facebook", "#"],
+    #     ["icon-linkedin", "#"]
+    #   ]
 
-    [[params.about.item]]
-      name = "Özkan ÖZMEN"
-      position = "Söveci"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
+    # [[params.about.item]]
+    #   name = "Özkan ÖZMEN"
+    #   position = "Söveci"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    #   img = "person2.jpg"
+    #   alt = "Person2"
+    #   social = [
+    #     ["icon-twitter", "#"],
+    #     ["icon-facebook", "#"],
+    #     ["icon-github", "#"]
+    #   ]
 
-    [[params.about.item]]
-      name = "Özkan ÖZMEN"
-      position = "Usta"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
+    # [[params.about.item]]
+    #   name = "Özkan ÖZMEN"
+    #   position = "Usta"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+    #   img = "person3.jpg"
+    #   alt = "Person3"
+    #   social = [
+    #     ["icon-twitter", "#"],
+    #     ["icon-facebook", "#"],
+    #     ["icon-dribbble", "#"]
+    #   ]      
 
   # Counters section
   [params.counters]
@@ -271,7 +273,7 @@ publishDir = "docs"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Çandarlı mahallesi 229/1 sok no:2/1 , Dikili<br> İzmir"],
-        ["icon-phone", "0 (533) 022 62 00 - 0 (532) 511 95 15"],
+        ["icon-phone", "0 (532) 511 95 15 - 0 (533) 022 62 00"],
         ["icon-envelope", "yazgansove@gmail.com"],
         ["icon-globe", '<a href="http://yazgansove.com/" target="_blank">yazgansove.com</a>']
       ]
