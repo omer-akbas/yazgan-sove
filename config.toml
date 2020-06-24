@@ -15,7 +15,7 @@ publishDir = "docs"
   email = "yazgansove@gmail.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
-  googleMapsApiKey = ""
+  googleMapsApiKey = "AIzaSyDsRen2A8i09lZSVhCYG6_lYNEzg-ZfKRs"
 
   # Navigation
   [params.navigation]
@@ -133,20 +133,23 @@ publishDir = "docs"
 
     [[params.testimonials.item]]
       # quote = "&ldquo;⭐⭐⭐⭐⭐&rdquo;"
-      quote = "⭐⭐⭐⭐⭐"
+      # quote = "⭐⭐⭐⭐⭐"
+      foto = "asli.jpeg"
       person = 'Bergamalı Aslı Garden'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
       # quote = "&ldquo;⭐⭐⭐⭐⭐&rdquo;"
-      quote = "⭐⭐⭐⭐⭐"
+      # quote = "⭐⭐⭐⭐⭐"
+      foto = "betoncu.jpeg"
       person = 'Çandarlı Betoncu İnşaat'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "⭐⭐⭐⭐⭐"
+      # quote = "⭐⭐⭐⭐⭐"
+      foto = "yavaser.jpeg"
       person = 'Yavaşer İnşaat'
       img = "person3.jpg"
       alt = "Person3"
@@ -226,7 +229,8 @@ publishDir = "docs"
   [params.counters]
     enable = true
     title = "Yazgan Söve"
-    background = "full_image_1.jpg"
+    # background = "full_image_1.jpg"
+    background = "guzel.jpeg"
 
     description = "Yapılarınıza görkemli bir görüntü kazandırmanızın en kolay yolu."
    
