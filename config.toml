@@ -276,7 +276,7 @@ publishDir = "docs"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Çandarlı mahallesi 229/1 sok no:2/1 , Dikili<br> İzmir"],
+        ["icon-home", "Çandarlı mahallesi sucu hafız caddesi no: 27A, Dikili<br> İzmir"],
         ["icon-phone", "0 (532) 511 95 15 - 0 (533) 022 62 00"],
         ["icon-envelope", "yazgansove@gmail.com"],
         ["icon-globe", '<a href="http://yazgansove.com/" target="_blank">yazgansove.com</a>']
